@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 
 const initialCredentials = {
-	username: 'username',
+	username: 'Lambda',
 	password: 'i<3Lambd4'
 };
 
