@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Login from './components/Login';
 import BubblePage from './components/BubblePage';
 import PrivateRoute from './components/PrivateRoute';
-import './styles.scss';
+import './styles.css';
 
 import fetchColors from './api/FetchColors';
 
