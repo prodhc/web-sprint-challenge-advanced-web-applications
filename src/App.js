@@ -8,7 +8,7 @@ import './styles.scss';
 
 import fetchColors from './api/FetchColors';
 
-// import { axiosWithAuth } from './helpers/axiosWithAuth.js';
+import { axiosWithAuth } from './helpers/axiosWithAuth.js';
 
 function App(props) {
 	const handleLogout = () => {
@@ -20,7 +20,7 @@ function App(props) {
 		<Router>
 			<div className="App">
 				<header>
-					Color Picker Sprint Challenge
+					Color Picker
 					<a data-testid="logoutButton" href="/" onClick={handleLogout}>
 						Logout
 					</a>

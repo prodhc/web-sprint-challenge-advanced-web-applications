@@ -2,8 +2,8 @@ import axios from 'axios';
 import React, { useState } from 'react';
 
 const initialCredentials = {
-	username: 'Lambda',
-	password: 'i<3Lambd4'
+	username: 'Lambda School',
+	password: ''
 };
 
 const Login = props => {
@@ -34,12 +34,12 @@ const Login = props => {
 				setError('Username or Password is incorrect');
 			});
 	};
-
+	const string = "'i<3Lambd4'"
 	return (
 		<div>
 			<h1>Welcome to the Bubble App!</h1>
 			<div data-testid="loginForm" className="login-form">
-				<h2>Build login form here</h2>
+				<h3>Password is {string}</h3>
 				<form onClick={handleSubmit}>
 					<label>
 						<input
